@@ -3,19 +3,64 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Detonix</title>
+<title>Supporto · Detonix</title>
+<meta name="description" content="Detonix è un Campo minato moderno per iPhone, iPad e Mac: Classic, No Guess, Daily, Spedizione, Xit e Traversata, tutto offline.">
+<link rel="canonical" href="https://detonix.app/">
+<link rel="alternate" hreflang="en" href="https://detonix.app/en/">
+<link rel="icon" href="icon.png">
 <style>
-  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f7ede4; color: #2b1622;
-         font: 17px/1.5 system-ui, -apple-system, sans-serif; text-align: center; padding: 24px; box-sizing: border-box; }
-  h1 { font-size: 2.4rem; margin: 0 0 8px; }
-  p { margin: 4px 0; opacity: 0.8; }
+:root { color-scheme: light dark; --bg: #f7ede4; --ink: #2b1622; --muted: #6e5462; --card: #fff8f2; --line: #ead7c8; --signal: #c93a2b; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1b0e19; --ink: #fbeee6; --muted: #cdb1bf; --card: #26121f; --line: #4d2b42; --signal: #ff8a73; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { width: min(100%, 680px); margin: 0 auto; padding: 32px 20px 48px; }
+header { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+header img { width: 72px; height: 72px; }
+h1 { margin: 0; font: 800 2rem/1.15 ui-rounded, "SF Pro Rounded", system-ui, sans-serif; }
+.kicker { margin: 0; color: var(--muted); font-weight: 600; }
+h2 { margin: 32px 0 8px; font-size: 1.2rem; }
+p { margin: 0 0 12px; }
+.lead { font-size: 1.05rem; }
+.updated { color: var(--muted); font-size: 0.92rem; }
+.card h2 { margin-top: 0; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 16px 20px; margin: 16px 0; }
+dt { font-weight: 700; margin-top: 16px; }
+dd { margin: 4px 0 0; }
+a { color: var(--signal); font-weight: 600; overflow-wrap: anywhere; }
+nav { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.92rem; }
 </style>
 </head>
 <body>
 <main>
-  <h1>Detonix</h1>
-  <p>Campo minato senza indovinare. Supporto e privacy arrivano qui a breve.</p>
-  <p lang="en">Minesweeper without guessing. Support and privacy pages are coming here soon.</p>
+<header>
+<img src="tix.webp" alt="" width="72" height="72">
+<div><p class="kicker">Detonix</p><h1>Supporto</h1></div>
+</header>
+<p class="lead">Detonix è un Campo minato moderno per iPhone, iPad e Mac: Classic, No Guess, Daily, Spedizione, Xit e Traversata, tutto offline.</p>
+<p>Per iPhone, iPad e Mac con Apple silicon.</p>
+<section class="card">
+<h2>Scrivici</h2>
+<p>Hai trovato un problema o hai un&#39;idea? Scrivi a <a href="mailto:mail@detonix.app">mail@detonix.app</a>.</p>
+<p>Aiuta molto sapere il modello del dispositivo, la versione di iOS o di macOS e quella di Detonix, che trovi in Impostazioni → Diagnostica.</p>
+</section>
+<section>
+<h2>Domande frequenti</h2>
+<dl>
+<dt>Come porto i miei dati su un altro dispositivo?</dt>
+<dd>In Impostazioni, sezione Dati, tocca «Esporta i dati» e manda il file all&#39;altro dispositivo, per esempio con AirDrop o con l&#39;app File. Lì apri Detonix e tocca «Importa i dati».</dd>
+<dt>Quando cambia il Daily?</dt>
+<dd>A mezzanotte UTC, uguale per tutti: in Italia all&#39;1:00, con l&#39;ora legale alle 2:00. Il primo tentativo del giorno è quello ufficiale.</dd>
+<dt>Cosa vuol dire No Guess?</dt>
+<dd>Ogni campo si risolve con la sola logica, dalla prima all&#39;ultima cella: non serve mai tirare a indovinare.</dd>
+<dt>Non sento i suoni.</dt>
+<dd>Gli effetti sonori tacciono con la modalità silenziosa dell&#39;iPhone. Controlla anche Impostazioni → Effetti sonori e il volume degli effetti.</dd>
+<dt>Detonix usa internet o raccoglie dati?</dt>
+<dd>No. Non ha account, pubblicità né statistiche d&#39;uso, e tutto resta sul dispositivo.</dd>
+</dl>
+</section>
+<nav><a href="privacy/">Privacy</a>
+<a href="en/" hreflang="en" lang="en">English</a>
+<span>© 2026 Iacopo Chianese</span></nav>
 </main>
 </body>
 </html>
