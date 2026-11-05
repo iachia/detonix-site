@@ -5,12 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy · Detonix</title>
 <meta name="description" content="Detonix è un Campo minato moderno per iPhone, iPad e Mac: Classic, No Guess, Daily, Spedizione, Xit e Traversata, tutto offline.">
+<meta name="apple-itunes-app" content="app-id=6829399942">
 <link rel="canonical" href="https://detonix.app/privacy/">
 <link rel="alternate" hreflang="en" href="https://detonix.app/en/privacy/">
 <link rel="icon" href="../icon.png">
 <style>
-:root { color-scheme: light dark; --bg: #f7ede4; --ink: #2b1622; --muted: #6e5462; --card: #fff8f2; --line: #ead7c8; --signal: #c93a2b; }
-@media (prefers-color-scheme: dark) { :root { --bg: #1b0e19; --ink: #fbeee6; --muted: #cdb1bf; --card: #26121f; --line: #4d2b42; --signal: #ff8a73; } }
+:root { color-scheme: light dark; --bg: #f7ede4; --ink: #2b1622; --muted: #6e5462; --card: #fff8f2; --line: #ead7c8; --signal: #c93a2b; --on-signal: #ffffff; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1b0e19; --ink: #fbeee6; --muted: #cdb1bf; --card: #26121f; --line: #4d2b42; --signal: #ff8a73; --on-signal: #1b0e19; } }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 main { width: min(100%, 680px); margin: 0 auto; padding: 32px 20px 48px; }
@@ -27,6 +28,8 @@ p { margin: 0 0 12px; }
 dt { font-weight: 700; margin-top: 16px; }
 dd { margin: 4px 0 0; }
 a { color: var(--signal); font-weight: 600; overflow-wrap: anywhere; }
+.store { display: inline-block; margin: 8px 0 4px; padding: 12px 22px; border-radius: 999px; background: var(--signal); color: var(--on-signal); font-weight: 700; text-decoration: none; }
+.store:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
 nav { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.92rem; }
 </style>
 </head>
