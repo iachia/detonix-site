@@ -5,13 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy · Detonix: Grand Finale</title>
 <meta name="description" content="Detonix: Grand Finale is Tix’s second game: cut the fuses at the right moment so the fireworks go off in the order set by the program. A hundred story levels, Daily party, Quick play and Head to head, all offline.">
+<meta name="apple-itunes-app" content="app-id=6834050099">
 <link rel="canonical" href="https://detonix.app/en/gran-finale/privacy/">
 <link rel="alternate" hreflang="it" href="https://detonix.app/gran-finale/privacy/">
 <link rel="icon" href="../../../gran-finale/icon.png">
 <link rel="apple-touch-icon" href="../../../gran-finale/icon.png">
 <style>
-:root { color-scheme: light dark; --bg: #f2eff9; --ink: #1c1932; --muted: #615b7c; --card: #ffffff; --line: #e2ddf0; --link: #b5420d; }
-@media (prefers-color-scheme: dark) { :root { --bg: #0d0b1c; --ink: #f0edfc; --muted: #a8a1c8; --card: #191630; --line: #2c2849; --link: #ff8146; } }
+:root { color-scheme: light dark; --bg: #f2eff9; --ink: #1c1932; --muted: #615b7c; --card: #ffffff; --line: #e2ddf0; --link: #b5420d; --on-link: #ffffff; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0d0b1c; --ink: #f0edfc; --muted: #a8a1c8; --card: #191630; --line: #2c2849; --link: #ff8146; --on-link: #0d0b1c; } }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 main { width: min(100%, 680px); margin: 0 auto; padding: 32px 20px 48px; }
@@ -28,6 +29,8 @@ p { margin: 0 0 12px; }
 dt { font-weight: 700; margin-top: 16px; }
 dd { margin: 4px 0 0; }
 a { color: var(--link); font-weight: 600; overflow-wrap: anywhere; }
+.store { display: inline-block; margin: 8px 0 4px; padding: 12px 22px; border-radius: 999px; background: var(--link); color: var(--on-link); font-weight: 700; text-decoration: none; }
+.store:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
 nav { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.92rem; }
 </style>
 </head>
